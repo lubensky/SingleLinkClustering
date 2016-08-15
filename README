@@ -1,0 +1,4 @@
+This is a small prototype implementing single-link-clustering. 
+The abstract task is to build clusters from all connected nodes in an undirected, cyclic graph. When changing the direct matches of a node, we want to detect all changes to affected clusters, e.g. added and removed nodes, created and deleted clusters.
+The implementation is supposed to be as straight forward as possible, only using standard C++ features.
+Also it is a playground to put some things learned in Clean Code to good use, like proper naming schemes and short, readable functions.
